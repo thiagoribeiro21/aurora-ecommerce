@@ -112,7 +112,11 @@ export const SubscribeButton = styled.button`
   font-size: ${({ theme }) => theme.fontSizes.medium};
   border: none;
   border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
   cursor: pointer;
+  margin: auto;
+  width: 100%;
   transition: opacity 0.3s ease;
   &:hover {
     opacity: 0.5;
