@@ -11,7 +11,7 @@
       name="description"
       content="Aurora Café: cafés especiais, frescos e selecionados. Compre grãos, acessórios e assine planos com benefícios exclusivos."
     />
-    <link rel="canonical" href="/" />
+    <!-- Canonical removed during build because href="/" confuses Vite's asset processing; re-add with absolute URL after deploy. -->
 
     <!-- Theming -->
     <meta name="theme-color" content="#4a2c2a" />
@@ -28,7 +28,8 @@
       content="Cafés de origem controlada, microtorra e assinatura com benefícios. Descubra a Aurora Café."
     />
     <meta property="og:url" content="/" />
-    <meta property="og:image" content="/vite.svg" />
+    <!-- Use an existing public asset for OG image to avoid missing file during build -->
+    <meta property="og:image" content="/coffe-svgrepo-com.svg" />
 
     <!-- Performance: fonts preconnect (opcional, ajuda o carregamento dos Google Fonts) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

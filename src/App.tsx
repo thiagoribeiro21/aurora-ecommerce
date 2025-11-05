@@ -2,7 +2,7 @@ import { Toaster } from 'react-hot-toast';
 import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { Header } from './components/Header/header';
-import { Footer } from './components/Footer/footer';
+import { Footer } from './components/Footer/FooterComponent';
 import { AuthPage } from './pages/AuthPage';
 import { Page404 } from './pages/Page404';
 import { CartDrawer } from './components/Cart/CartDrawer';
