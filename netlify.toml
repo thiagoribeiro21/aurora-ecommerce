@@ -1,0 +1,31 @@
+# Netlify configuration for Vite + React SPA
+# Docs: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Keep environment variables in the Netlify UI (Site settings > Build & deploy > Environment)!
+# You can define context-specific variables here, but avoid committing secrets.
+# [build.environment]
+#   VITE_FIREBASE_API_KEY = "set-only-in-netlify-ui"
+
+# SPA fallback: let Netlify serve assets first; all other routes fallback to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Long-term caching for Vite hashed assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Basic security headers (non-breaking)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade"
