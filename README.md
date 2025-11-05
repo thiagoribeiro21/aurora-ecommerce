@@ -33,16 +33,16 @@ Este projeto foi uma oportunidade para aplicar e aprofundar conhecimentos em:
 
 ## ✨ Ir para o site
 
-[🔗 Acesse o site aqui!](#) <!-- Atualize com a URL do Netlify após o deploy -->
+[🔗 Acesse o site aqui!](https://aurora-ecommerce.netlify.app/) <!-- Atualize com a URL do Netlify após o deploy -->
 
 ## Screenshots
 
 <!-- Adicione suas capturas em images/screenshots-readme e atualize os paths abaixo -->
-<img src="images/screenshots-readme/screenshot-hero.png" alt="Hero" />
-<img src="images/screenshots-readme/screenshot-products.png" alt="Produtos" />
-<img src="images/screenshots-readme/screenshot-cart.png" alt="Carrinho" />
-<img src="images/screenshots-readme/screenshot-auth.png" alt="Autenticação" />
-<img src="images/screenshots-readme/screenshot-subscription.png" alt="Assinaturas" />
+<img src="./src/assets/img/readme/screenshot-home.png" alt="Hero" />
+<img src="./src/assets/img/readme/screenshot-produtos.png" alt="Produtos" />
+<img src="./src/assets/img/readme/screenshot-carrinho.png" alt="Carrinho" />
+<img src="./src/assets/img/readme/screenshot-login.png" alt="Autenticação" />
+<img src="./src/assets/img/readme/screenshot-assinaturas.png" alt="Assinaturas" />
 
 ## Funcionalidades
 
@@ -81,8 +81,8 @@ Este projeto foi uma oportunidade para aplicar e aprofundar conhecimentos em:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/thiagoribeiro21/aurora-ecommerce.git
+cd aurora-ecommerce
 ```
 
 2. Instale as dependências:
@@ -110,16 +110,6 @@ npm run dev
 npm run build
 npm run preview
 ```
-
-## Deploy no Netlify (SPA)
-
-1. Conecte o repo do GitHub no Netlify
-2. Build command: `npm run build` | Publish directory: `dist`
-3. Variáveis de ambiente (Site settings > Build & deploy > Environment):
-   - `VITE_FIREBASE_API_KEY`, `VITE_FIREBASE_AUTH_DOMAIN`, `VITE_FIREBASE_PROJECT_ID`,
-     `VITE_FIREBASE_STORAGE_BUCKET`, `VITE_FIREBASE_MESSAGING_SENDER_ID`, `VITE_FIREBASE_APP_ID`
-4. SPA routing: `netlify.toml` já possui redirect `/* -> /index.html` (200)
-5. No Firebase Console, adicione o domínio do Netlify em Authentication > Settings > Authorized domains
 
 ## Scripts
 

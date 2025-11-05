@@ -47,7 +47,7 @@ export function AuthComponent() {
         <ToggleContainer>
           {mode === 'login' ? (
             <>
-              <p>Ainda não tem uma Conta?</p>
+              <p>Ainda não tem uma conta?</p>
               <ToggleButton
                 $active={false}
                 onClick={() => handleModeChange('register')}

@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const AuthContainer = styled.div`
   /* Card de autenticação */
   background-color: ${({ theme }) => theme.colors.secondary};
-  padding: 1.5rem;
+  padding: 1.3rem;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -20,7 +20,7 @@ export const Form = styled.form`
 // Rótulos com boa legibilidade.
 export const Label = styled.label`
   margin-bottom: 0.5rem;
-  font-size: ${(props) => props.theme.fontSizes.mediumLarge};
+  font-size: ${(props) => props.theme.fontSizes.medium};
   color: ${(props) => props.theme.colors.black};
   @media (min-width: 1024px) {
     font-size: ${(props) => props.theme.fontSizes.large};
@@ -31,7 +31,7 @@ export const Input = styled.input`
   padding: ${(props) => props.theme.spacing.small};
   border: 1px solid ${(props) => props.theme.colors.gray};
   border-radius: 12px;
-  font-size: ${(props) => props.theme.fontSizes.mediumLarge};
+  font-size: ${(props) => props.theme.fontSizes.medium};
   background-color: ${(props) => props.theme.colors.secondary};
   &:focus {
     outline: none;
@@ -44,7 +44,7 @@ export const Input = styled.input`
 // Mensagem de erro simples, usando a cor de perigo do tema.
 export const ErrorMessage = styled.p`
   color: ${(props) => props.theme.colors.danger};
-  font-size: ${(props) => props.theme.fontSizes.mediumLarge};
+  font-size: ${(props) => props.theme.fontSizes.medium};
   margin-top: 0.25rem;
   @media (min-width: 1024px) {
     font-size: ${(props) => props.theme.fontSizes.large};
