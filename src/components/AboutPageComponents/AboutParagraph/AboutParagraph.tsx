@@ -21,6 +21,24 @@ export function AboutParagraph() {
         ao redor da xícara. Sobre construir comunidade com produtores e com quem
         escolhe começar o dia com a gente.
       </StyledAboutParagraph>
+      <StyledAboutParagraph>
+        <strong>Compromisso com a qualidade:</strong> Acreditamos que um bom
+        café começa com a escolha dos melhores grãos. Por isso, trabalhamos
+        diretamente com produtores que compartilham nossa paixão pela qualidade
+        e sustentabilidade.
+      </StyledAboutParagraph>
+      <StyledAboutParagraph>
+        <strong>Sustentabilidade:</strong> Estamos comprometidos em minimizar
+        nosso impacto ambiental. Utilizamos embalagens recicláveis e apoiamos
+        práticas agrícolas sustentáveis que beneficiam tanto o meio ambiente
+        quanto as comunidades locais.
+      </StyledAboutParagraph>
+      <StyledAboutParagraph>
+        <strong>Experiência do cliente:</strong> Nossa missão é proporcionar uma
+        experiência excepcional, desde a navegação em nosso site até o momento
+        em que você saboreia seu café. Estamos sempre disponíveis para ajudar e
+        ouvir o feedback dos nossos clientes.
+      </StyledAboutParagraph>
     </Container>
   );
 }

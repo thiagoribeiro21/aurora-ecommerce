@@ -44,6 +44,7 @@ export const TitleAboutContent = styled.h2`
 export const TextAboutContent = styled.p`
   border-bottom: 2px solid ${({ theme }) => theme.colors.secondary};
   padding-bottom: ${({ theme }) => theme.spacing.extraLarge};
+  letter-spacing: 0.02em;
   max-width: 50ch;
   font-family: ${({ theme }) => theme.fonts.body};
   font-size: 1.2rem;

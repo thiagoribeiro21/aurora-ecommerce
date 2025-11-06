@@ -19,8 +19,13 @@ export const StyledAboutParagraph = styled.p`
   font-size: 1.2rem;
   margin-bottom: 0;
   max-width: 50ch;
+  letter-spacing: 0.02em;
 
   @media (min-width: 768px) {
+    max-width: 60ch;
+    font-size: 1.3rem;
+  }
+  @media (min-width: 1024px) {
     max-width: 60ch;
     font-size: 1.3rem;
   }
