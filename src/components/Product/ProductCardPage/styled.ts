@@ -24,8 +24,8 @@ export const ProductImage = styled.img`
   border-radius: 50%;
   object-fit: cover;
   @media (min-width: 768px) {
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
   }
 `;
 // Área de informações (nome e preço)
@@ -37,6 +37,10 @@ export const InfoContainer = styled.div`
 
   font-family: ${({ theme }) => theme.fonts.body};
   font-size: ${({ theme }) => theme.fontSizes.large};
+  @media (min-width: 1024px) {
+    font-size: ${({ theme }) => theme.fontSizes.mediumLarge};
+    gap: ${({ theme }) => theme.spacing.small};
+  }
 `;
 // Nome do produto
 export const ProductName = styled.h3`

@@ -20,7 +20,8 @@ export const ProductTitle = styled.h2`
   color: ${({ theme }) => theme.colors.secondary};
   text-align: center;
   margin-bottom: ${({ theme }) => theme.spacing.large};
-  font-size: ${({ theme }) => theme.fontSizes.extraLarge};
+  font-size: 2.2rem;
+  font-weight: 400;
 `;
 // Grid responsivo com cards de produto
 export const GridContainer = styled.div`
