@@ -30,10 +30,10 @@ import { toast } from 'react-hot-toast';
 const navLinks = [
   { path: '/products', label: 'Produtos' },
   { path: '/about', label: 'Sobre Nós' },
-
-  { path: '/#location', label: 'Localização' },
-  { path: '/#subscription', label: 'Assinatura' },
   { path: '/#testimonials', label: 'Depoimentos' },
+
+  { path: '/#subscription', label: 'Assinatura' },
+  { path: '/#location', label: 'Localização' },
 ];
 
 export function Header() {
