@@ -8,8 +8,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-
+  max-width: 980px;
+  margin: auto;
   background-color: ${({ theme }) => theme.colors.secondary};
   border-radius: 16px;
 `;
@@ -17,10 +17,11 @@ export const Container = styled.div`
 export const SectionWrapper = styled.section`
   margin: 2rem 0;
   padding: 2rem;
-  max-width: 980px;
-  margin: auto;
+  padding: 2rem;
+
   padding-top: 4rem;
   padding-bottom: ${({ theme }) => theme.spacing.sectionSpacing};
+  background-color: ${({ theme }) => theme.colors.secondary};
 `;
 // Título da seção
 export const SectionTitle = styled.h2`
@@ -42,8 +43,12 @@ export const ProductsContainer = styled.div`
 
   @media (min-width: 768px) {
     flex-direction: row;
-
+    gap: ${({ theme }) => theme.spacing.extraLarge};
     justify-content: space-between;
+  }
+
+  @media (min-width: 1024px) {
+    gap: ${({ theme }) => theme.spacing.sectionSpacing};
   }
 `;
 // Botão/Link para a página de produtos completa (CTA)
@@ -73,10 +78,6 @@ export const CardContainer = styled(Link)`
   aspect-ratio: 1 / 1;
 
   font-family: ${({ theme }) => theme.fonts.body};
-
-  @media (min-width: 768px) {
-    flex: 1;
-  }
 `;
 // Wrapper da imagem (reservado para ajustes futuros)
 export const ImageContainer = styled.div``;
