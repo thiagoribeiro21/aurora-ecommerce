@@ -25,7 +25,7 @@ const testimonialsData = [
     id: 2,
     stars: 5,
     quote:
-      'Minha manhã simplesmente não começa antes do meu café da Aurora. É o meu ritual de 10 minutos de paz antes do dia começar.',
+      'Minha manhã simplesmente não começa antes do meu café da Aurora. É o meu ritual de 10 minutos de paz antes do dia começar. Recomendo Muito"',
     author: 'Mariana R.',
   },
   {
