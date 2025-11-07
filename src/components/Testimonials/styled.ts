@@ -54,6 +54,9 @@ export const TestimonialCard = styled.div`
   padding: 3rem;
   width: 50%;
   padding-bottom: 3rem;
+  text-align: justify;
+  hyphens: auto;
+  /* text-align: center; */
   @media (min-width: 1024px) {
     padding: 2rem;
     flex: 1;
