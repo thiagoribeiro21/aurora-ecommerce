@@ -78,6 +78,10 @@ export const CardContainer = styled(Link)`
   aspect-ratio: 1 / 1;
 
   font-family: ${({ theme }) => theme.fonts.body};
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
 `;
 // Wrapper da imagem (reservado para ajustes futuros)
 export const ImageContainer = styled.div``;
