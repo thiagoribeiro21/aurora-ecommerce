@@ -31,23 +31,14 @@
     <!-- Use an existing public asset for OG image to avoid missing file during build -->
     <meta property="og:image" content="/coffe-svgrepo-com.svg" />
 
-    <!-- Performance: preconnect + preload the Google Fonts stylesheet to avoid render-blocking -->
+    <!-- Performance: fonts preconnect (opcional, ajuda o carregamento dos Google Fonts) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Preload the Google Fonts stylesheet and switch rel to stylesheet on load (reduces render-blocking) -->
+    <!-- Google Fonts: Montserrat (heading), Lora (accent) e Roboto (body) -->
     <link
-      rel="preload"
-      as="style"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
-      onload="this.rel='stylesheet'"
+      rel="stylesheet"
     />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
-      />
-    </noscript>
   </head>
   <body>
     <div id="root"></div>
