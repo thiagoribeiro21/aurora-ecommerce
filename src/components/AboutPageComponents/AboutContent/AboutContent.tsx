@@ -1,5 +1,5 @@
 // Bloco com imagem + texto que conta um pouco da história da marca.
-import imgAboutCoffee from '../../../assets/img/farmer-about.jpg';
+import imgAboutCoffee from '../../../assets/img/farmer-about.webp';
 import {
   Container,
   ContainerImg,

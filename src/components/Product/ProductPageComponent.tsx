@@ -4,9 +4,9 @@
 import type { Product } from '../../types/product-type';
 import { mockProducts } from '../Home/ProductSection/ProductSection';
 import { toast } from 'react-hot-toast';
-import coffeImg1 from '../../assets/img/products/coffe-image-1.jpg';
-import coffeImg2 from '../../assets/img/products/coffe-image-2.jpg';
-import coffeImg3 from '../../assets/img/products/coffe-image-3.jpg';
+import coffeImg1 from '../../assets/img/products/coffe-image-1.webp';
+import coffeImg2 from '../../assets/img/products/coffe-image-2.webp';
+import coffeImg3 from '../../assets/img/products/coffe-image-3.webp';
 
 import {
   Container,

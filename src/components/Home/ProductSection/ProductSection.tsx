@@ -1,9 +1,9 @@
 // Seção de Produtos da Home (vitrine rápida).
 // Exibe 3 produtos (mock) e um CTA para a página completa de produtos.
 // Mantém a lista simples para performance na Home; detalhes ficam na rota /products.
-import imgProduct_1 from '../../../assets/img/products/product-photo-1.jpg';
-import imgProduct_2 from '../../../assets/img/products/product-photo-2.jpg';
-import imgProduct_3 from '../../../assets/img/products/product-photo-3.jpg';
+import imgProduct_1 from '../../../assets/img/products/product-photo-1.webp';
+import imgProduct_2 from '../../../assets/img/products/product-photo-2.webp';
+import imgProduct_3 from '../../../assets/img/products/product-photo-3.webp';
 import type { Product } from '../../../types/product-type';
 import {
   Container,

@@ -2,7 +2,7 @@
 // Fundo com imagem (efeito parallax simples em desktop) e cards com planos e benefícios.
 import styled from 'styled-components';
 
-import heroSubscription from '../../../assets/img/hero-subscription.jpg';
+import heroSubscription from '../../../assets/img/hero-subscription.webp';
 // Wrapper com imagem de fundo e parallax em telas grandes
 export const SectionWrapper = styled.section`
   background-image: url(${heroSubscription});

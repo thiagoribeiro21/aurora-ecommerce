@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import imgHeroAbout from '../../../assets/img/hero-about.jpg';
+import imgHeroAbout from '../../../assets/img/hero-about.webp';
 // Seção com imagem de fundo (parallax leve em desktop)
 export const HeroAboutWrapper = styled.section`
   background-image: url(${imgHeroAbout});

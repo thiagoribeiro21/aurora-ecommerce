@@ -1,7 +1,7 @@
 // Estilos do Hero da Home.
 // Wrapper aplica imagem de fundo e parallax simples em desktop; demais blocos centralizam e estilizam o conteúdo.
 import styled from 'styled-components';
-import heroBg from '../../../assets/img/background-hero-section.jpg';
+import heroBg from '../../../assets/img/background-hero-section.webp';
 
 // Área hero com imagem de fundo (parallax em telas grandes)
 export const HeroWrapper = styled.section`
